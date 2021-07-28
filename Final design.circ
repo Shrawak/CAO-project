@@ -1383,7 +1383,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(490,450)" to="(760,450)"/>
     <wire from="(490,490)" to="(760,490)"/>
     <wire from="(380,440)" to="(460,440)"/>
-    <wire from="(390,350)" to="(470,350)"/>
     <wire from="(130,500)" to="(130,620)"/>
     <wire from="(620,80)" to="(620,130)"/>
     <wire from="(640,80)" to="(640,130)"/>
@@ -1420,6 +1419,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(630,80)" to="(630,130)"/>
     <wire from="(80,290)" to="(470,290)"/>
     <wire from="(400,340)" to="(470,340)"/>
+    <wire from="(390,350)" to="(460,350)"/>
     <wire from="(390,80)" to="(590,80)"/>
     <wire from="(400,90)" to="(600,90)"/>
     <comp lib="2" loc="(200,190)" name="Decoder">
@@ -1519,6 +1519,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(520,330)" name="AND Gate">
       <a name="inputs" val="4"/>
       <a name="negate0" val="true"/>
+      <a name="negate3" val="true"/>
     </comp>
   </circuit>
   <circuit name="DR">
